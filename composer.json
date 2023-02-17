@@ -1,0 +1,22 @@
+{
+    "name": "alejandro/appsalon",
+    "description": "Proyecto PHP 8",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Alejandro",
+            "email": "meraza952@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
